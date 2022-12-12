@@ -2,4 +2,4 @@
 
 * Patika.dev "Java ile Backend Patikaları" eğitimi kapsamında bana verilen görevleri burada paylaşıyor olacağım.
 
- [www.patika.dev](www.patika.dev)
+ [www.patika.dev](https://www.patika.dev)
