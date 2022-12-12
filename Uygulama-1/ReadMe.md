@@ -2,4 +2,4 @@
 
 * Bu benim yazmış olduğum ilk program. :))
 
-* [www.patika.dev](www.patika.dev)
+* [www.patika.dev](https://www.patika.dev)
