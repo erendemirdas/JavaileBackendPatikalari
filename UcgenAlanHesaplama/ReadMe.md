@@ -1,4 +1,4 @@
-# Ucgen alanı ce Dık ucgende hıpotenus hesaplama / Uygulama-3
+# Üçgen alanı ve dik üçgende hipotenüs hesaplama / Uygulama-3
 
 * hipotenus isimli programda dik üçgenin iki dik kenarların uzunlukları girilir ve hipotenüs uzunluğu hesaplanır.
 
