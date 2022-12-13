@@ -4,3 +4,5 @@
 
 * 1000 TL altı fiyatlarda uygulanan KDV oranı % 18 ,
 * 1000 TL ve üzeri fiyatlarda uygulanan KDV oranı % 8 olarak hesaplanmıştır.
+
+[Patika.dev](https://www.patika.dev)
