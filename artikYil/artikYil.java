@@ -10,16 +10,20 @@ public class artikYil {
         mod2 = yil % 100;
         mod3 = yil % 400;
 
-        if (mod2==0){
-            if (mod3==0){
+        if (yil >= 0){
+            if (mod2==0){
+                if (mod3==0){
+                    System.out.println(yil + " bir artık yıldır !");
+                }else {
+                    System.out.println(yil + " bir artık yıl değildir !");
+                }
+            }else if(mod1 == 0){
                 System.out.println(yil + " bir artık yıldır !");
             }else {
                 System.out.println(yil + " bir artık yıl değildir !");
             }
-        }else if(mod1 == 0){
-            System.out.println(yil + " bir artık yıldır !");
         }else {
-            System.out.println(yil + " bir artık yıl değildir !");
+            System.out.println("Yanlış bir değer girdiniz !");
         }
     }
 }
