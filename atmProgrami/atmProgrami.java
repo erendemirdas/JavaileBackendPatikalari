@@ -15,7 +15,7 @@ public class atmProgrami {
                 if (userName.equals("patika") && password.equals("dev123")){
                     System.out.println("\nMerhaba , Kodluyoruz Bankasına Hoşgeldiniz !");
                     do {
-                        System.out.println("n"+"1-Para Yatırma\n" +
+                        System.out.println("\n"+"1-Para Yatırma\n" +
                                 "2-Para Çekme\n" +
                                 "3-Bakiye Sorgulama\n" +
                                 "4-Çıkış Yap");
@@ -36,6 +36,7 @@ public class atmProgrami {
                                     System.out.println("Bakiyeniz yetersiz ! \n");
                                 }else {
                                     balance -= price;
+                                    System.out.println("Para çekme işlemi başarılı ! Güncel Bakiyeniz = " + balance +"\n");
                                 }break;
                             case 3:
                                 System.out.println("Bakiyeniz = " + balance);
@@ -43,7 +44,7 @@ public class atmProgrami {
                         }
 
                     }while (select != 4);
-                    System.out.println("\n" + "İyi günler dileriz. Tekrar görüşmek üzere...");
+                    System.out.println("\n" +"Hesabınızdan Çıkış Yapıldı\n"+ "İyi günler dileriz. Tekrar görüşmek üzere...");
                     break;
 
                 }else {
