@@ -25,7 +25,7 @@ public class Match {
         if (isCheck()){
             while (this.f1.healty > 0 && this.f2.healty > 0){
                 System.out.println("\n"+"<><><><> YENİ ROUND <><><><>");
-                if (firstAttac()){
+                if (firstAttack()){
                     this.f2.healty = this.f1.hit(f2);
                     if (isWin()){
                         break;
@@ -86,7 +86,7 @@ public class Match {
         System.out.println(this.f2.name + " KALAN CAN = " + this.f2.healty);
     }
 
-    boolean firstAttac(){
+    boolean firstAttack(){
         double randomNumber = Math.random() * 100 ;
         return randomNumber <= 49;
     }
