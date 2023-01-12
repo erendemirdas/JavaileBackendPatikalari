@@ -16,8 +16,7 @@ public class Harmon {
             numPlus += f(j);  /* DİZEDEKİ ELEMANLARIN HARMONİK SERİLERİNİ BULUYOR ve TOPLUYOR */
         }
         for (int i = 0  ; i < list2.length; i++){
-            double deger = f(list[i]);
-            list2[i] = deger;
+            list2[i] = f(list[i]);
         }
 
         double harmonicAvarage = list.length / numPlus; /*  DİZENİN BOYUTUNU - DİZEDEKİ ELEMANLARIN HARMONİK SERİ TOPLAMLARINA BÖLÜYOR */
