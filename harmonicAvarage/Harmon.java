@@ -23,8 +23,8 @@ public class Harmon {
         double harmonicAvarage = list.length / numPlus; /*  DİZENİN BOYUTUNU - DİZEDEKİ ELEMANLARIN HARMONİK SERİ TOPLAMLARINA BÖLÜYOR */
         System.out.println("Dizedeki sayılar : " + Arrays.toString(list));
         System.out.println("Dizedeki sayıların harmonik serileri : " + Arrays.toString(list2));
-        System.out.println("Dizedeki sayıların harmonik serileri toplamı = " +numPlus + "\n");
+        System.out.println("Dizedeki sayıların harmonik serileri toplamı = " + numPlus + "\n");
         System.out.println("Dizedeki sayıların harmonik ortalaması =  dizedeki eleman sayısı / dizedeki elemanların harmonik serileri toplamı");
-        System.out.println("Dizedeki sayıların harmonik ortalaması : "+harmonicAvarage);
+        System.out.println("Dizedeki sayıların harmonik ortalaması : " + harmonicAvarage);
     }
 }
